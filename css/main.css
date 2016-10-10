@@ -1,5 +1,6 @@
 body {
     font-family: Trebuchet MS !important;
+    
 }
 
 body,
@@ -9,6 +10,10 @@ li {
     margin: 0;
 }
 
+p
+{
+    font-size:1em;
+}
 .green {
     background: #a2ca28;
 }
@@ -31,7 +36,7 @@ header {
 }
 
 .navbar {
-    background-color: transparent;
+   
     background: transparent;
     border: 0;
 }
@@ -58,30 +63,35 @@ header nav li a {
     text-decoration: none;
 }
 
-.icons {
+.explore {
     padding: 100px 0px !important;
     color: #fff;
 }
-
-.icons h3 {
+.explore .item
+{
+    height: 300px;
+}
+.explore h3 {
     line-height: 2em;
     font-weight: bold;
 }
 
-.icons p {
+.explore p {
     line-height: 2em;
 }
 
-.icons img {
+.explore img {
     height: 50px;
 }
 
-.icons a {
+.explore a {
     color: white;
     text-decoration: none;
+    top:90%;
+    position: absolute;
 }
 
-.box1 {
+.small-box {
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -89,7 +99,7 @@ header nav li a {
     height: 394px;
 }
 
-.box1 h5 {
+.small-box h5 {
     color: #fd634e;
     text-align: center;
     text-transform: uppercase;
@@ -97,7 +107,7 @@ header nav li a {
     margin-bottom: 0px;
 }
 
-.box1 h3 {
+.small-box h3 {
     margin-top: 0px;
     text-align: center;
     text-transform: uppercase;
@@ -105,19 +115,19 @@ header nav li a {
     font-size: 35px;
 }
 
-.box1 img {
+.small-box img {
     display: block;
     margin: 0 auto;
 }
 
-.box1 p {
+.small-box p {
     padding: 20px 30px;
     line-height: 1.6em;
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.box1 a {
+.small-box a {
     color: #a2ca28;
     text-decoration: underline;
     border-width: thin;
@@ -126,74 +136,75 @@ header nav li a {
     text-align: center;
 }
 
-.rect {
+.large-box {
     padding: 0;
     margin: 0;
     overflow: hidden;
 }
 
-.rect2 {
+.large-text-box {
     overflow: hidden;
     padding: 0;
     margin: 0;
     height: 331px;
 }
 
-.box2 {
+.small-image-box {
     padding: 0;
     margin: 0;
     width: 390px;
+    height: 328px;
 }
 
-.box3 {
+.small-text-box {
     overflow: hidden;
     height: 331px;
     padding: 0;
     margin: 0;
 }
 
-.box3 .left {
+.small-text-box .left {
     float: left;
 }
 
-.box3 .right {
+.small-text-box .right {
     float: right;
 }
 
-.box3 ul {
+.small-text-box ul {
     height: 87px;
     list-style: none;
 }
 
-.box3 .texting {
+.small-text-box .box-header {
     width: 80%;
     padding-left: 40px;
     padding-top: 30px;
 }
 
-.box3 .image {
+.small-text-box .image {
     width: 20%;
     padding-top: 40px;
 }
 
-.box3 h5 {
+.small-text-box h5 {
     color: #fd634e;
     text-transform: uppercase;
     margin-bottom: 0px;
 }
 
-.box3 h3 {
+.small-text-box h3 {
     margin-top: 0px;
     text-transform: uppercase;
     font-size: 35px;
     color: #a2ca28;
 }
 
-.box3 p {
+.small-text-box p {
     padding: 40px 70px 40px 40px;
 }
 
-.rect2.green h3 {
+.large-text-box.green h3 {
     margin: 50px 50px 20px;
     text-transform: uppercase;
     font-size: 35px;
@@ -201,61 +212,61 @@ header nav li a {
     letter-spacing: 2px;
 }
 
-.rect2.green {
+.large-text-box.green {
     -webkit-box-shadow: -32px 0px 127px -44px rgba(0, 0, 0, 0.53);
     -moz-box-shadow: -32px 0px 127px -44px rgba(0, 0, 0, 0.53);
     box-shadow: -32px 0px 127px -44px rgba(0, 0, 0, 0.53);
 }
 
-.rect2.green p {
+.large-text-box.green p {
     margin-left: 50px;
     margin-right: 60px;
     color: #fff;
 }
 
-.white.rect2 ul {
+.white.large-text-box ul {
     height: 125px;
     list-style: none;
 }
 
-.white.rect2 .texting {
+.white.large-text-box .box-header {
     width: 80%;
     padding-left: 40px;
     padding-top: 30px;
 }
 
-.white.rect2 .image {
+.white.large-text-box .image {
     width: 20%;
     padding-top: 40px;
     padding-left: 50px;
 }
 
-.white.rect2 h5 {
+.white.large-text-box h5 {
     color: #fd634e;
     margin-bottom: 0px;
     text-transform: uppercase;
 }
 
-.white.rect2 h3 {
+.white.large-text-box h3 {
     color: #a2ca28;
     text-transform: uppercase;
     margin-top: 0px;
     font-size: 35px;
 }
 
-.white.rect2 p {
+.white.large-text-box p {
     padding-left: 40px;
     padding-right: 100px;
 }
 
-.green.box3 h5 {
+.green.small-text-box h5 {
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 0px;
     font-weight: bold;
 }
 
-.green.box3 h2 {
+.green.small-text-box h2 {
     color: #fff;
     font-size: 35px;
     font-weight: lighter;
@@ -263,7 +274,7 @@ header nav li a {
     text-transform: uppercase;
 }
 
-.green.box3 p {
+.green.small-text-box p {
     color: #fff;
 }
 
@@ -278,7 +289,7 @@ header nav li a {
     top: 300px;
     text-align: center;
     color: #fff;
-    font-size: 48px;
+    font-size: 3em;
 }
 
 .sunset p {
@@ -286,12 +297,13 @@ header nav li a {
     top: 300px;
     text-align: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 1.1em;
+    padding: 0px 130px;;
 }
 
 footer {
     background: #0d1119;
-    height: 600px;
+    height: 1000vh;
 }
 
 footer h4 {
@@ -357,20 +369,89 @@ footer ul {
 }
 
 footer p {
-    margin-top: 20px
+    margin-top: 20px;
+    color:#8297a7;
 }
 
 @media all and (max-width: 480px) {
+   header
+    {
+        
+    }
     .hidee {
         visibility: hidden;
         height: 0px;
         width: 0px;
     }
+   
+    .navbar{
+        background: #483f36;
+    }
+    .navbar .navbar-brand img
+    
+    {
+        width: auto;
+        height: 38px;
+        
+        margin-top: -10px;
+       margin-left: -5px
+        
+    }
+    
+    .explore .item
+    {
+        text-align: center;
+        margin-bottom: 40px;
+         
+    }
+    .explore .item a
+    {
+         color: white;
+    text-decoration: none;
+    top:75%;
+    width: 100%;
+    display: block;
+    text-align: center;
+        
+    }
+    
+   .sunset h2 {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5em;
 }
-@media all and (max-width: 768px) {
+    
+
+.sunset p {
+   
+
+    
+    
+    
+    padding: 10px 50px;;
+    position: relative;
+top:150px;
+    
+}
+    
+    footer form
+    {
+       
+        margin-left: 30px;
+    }
+
+@media only screen and (max-width: 768px) {
     .hidee {
         visibility: hidden;
         height: 0px;
         width: 0px;
     }
+    header nav ul {
+    padding-right: 5px ;
+    margin-right: 0px;
+    
+}
+   
 }
