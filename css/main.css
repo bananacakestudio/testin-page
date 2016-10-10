@@ -141,7 +141,30 @@ header nav li a {
     margin: 0;
     overflow: hidden;
 }
-
+.large-box .women-img
+{
+    position: relative;
+    width: 100%;
+}
+.large-box p
+{
+    position: absolute;
+    bottom: 40px; 
+    left: 600px; 
+   
+    color: #f7614c;
+  
+}
+.large-box p span
+{
+    color: #fff;
+}
+.large-box .icon{
+    position: absolute;
+bottom: 650px; 
+   left: 40px; 
+   
+}
 .large-text-box {
     overflow: hidden;
     padding: 0;
