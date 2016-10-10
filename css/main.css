@@ -374,15 +374,8 @@ footer p {
 }
 
 @media all and (max-width: 480px) {
-   header
-    {
-        
-    }
-    .hidee {
-        visibility: hidden;
-        height: 0px;
-        width: 0px;
-    }
+
+    
    
     .navbar{
         background: #483f36;
@@ -442,12 +435,8 @@ top:150px;
         margin-left: 30px;
     }
 
-@media only screen and (max-width: 768px) {
-    .hidee {
-        visibility: hidden;
-        height: 0px;
-        width: 0px;
-    }
+@media all  and (min-width: 768px) {
+    
     header nav ul {
     padding-right: 5px ;
     margin-right: 0px;
